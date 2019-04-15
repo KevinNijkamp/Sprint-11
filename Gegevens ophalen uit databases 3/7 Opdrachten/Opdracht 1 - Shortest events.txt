@@ -1,0 +1,8 @@
+SELECT [EventName]
+
+--give EventName another name (Lenght of name)
+	  ,LEN([EventName]) AS [Lenght of name]
+FROM   [tblEvent]
+
+--Show the lowest value first
+ORDER BY [Lenght of name] 

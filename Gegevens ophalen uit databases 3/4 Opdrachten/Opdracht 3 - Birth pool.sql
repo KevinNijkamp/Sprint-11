@@ -1,0 +1,1 @@
+SELECT Abs(42) AS Dayoffset, ABS(-42) AS Daydifference; 
