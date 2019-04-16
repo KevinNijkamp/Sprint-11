@@ -1,1 +1,0 @@
-SELECT AuthorName FROM tblAuthor
